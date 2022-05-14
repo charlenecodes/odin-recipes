@@ -24,6 +24,11 @@ This is the first project from The Odin Project Foundations course. My goal is t
 * ***Source Control:*** There are so many options with VS Code and Terminal (5.14.22)
     - I have not memorized the Terminal commands yet to be able to commit on Github, but through updating the README.md I am understanding more
     - Staging changes and Committing with VS Code is way simpler and I love it, but I eventually need to get better with using Terminal
+* ***Understanding the differences with Staging, Committing, and Pushing:*** I wrongly believed that commit was the final step to see the changes on Github (5.14.22)
+    - Staging sets up for Commit, Commit sets up for Pushing, Pushing publishes the changes on Github
+    - Initially I thought that after Committing it should already be published and I was waiting for the changes to appear
+    - I went back to Terminal and typed the command git push then I finally saw the changes on the README.md file and I was happy that I learned something new
+        - ***Unstaging:*** I did my first unstaging due to a typo and learned that it's not complicated
 
 
 
