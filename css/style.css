@@ -1,4 +1,22 @@
-.top {
-    background-color: blanchedalmond;
+.top, .intro {
+    background-color: bisque;
     color: red;
+}
+
+h1 {
+    background-color: bisque;
+}
+
+* {
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+li {
+    background-color: bisque;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+footer {
+    text-align: center;
 }
