@@ -101,7 +101,7 @@ img.round {
 
 * {
     font-family: 'Ibarra Real Nova', serif;
-    color:rgb(57, 65, 80)
+    color:rgb(57, 65, 80);
 }
 
 .title {
@@ -140,13 +140,20 @@ a.link {
     font-size: 20px;
 }
 
-
+a:hover {
+    color: #53a258;
+}
 
 /* FOOTER */
 
 .bottom-nav a {
-    color:#53a258;
+    color:rgb(57, 65, 80);
+    text-decoration-color: #53a258;
     font-size: 20px;
+}
+
+.bottom-nav a:hover {
+    color: #53a258;
 }
 
 footer {
