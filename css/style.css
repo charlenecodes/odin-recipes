@@ -1,22 +1,127 @@
-.top, .intro {
+/* NAV */
+
+.nav {
     background-color: bisque;
-    color: red;
 }
 
-h1 {
-    background-color: bisque;
+.bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
 }
+
+/* INTRO */
+
+.intro {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+    margin: 100px;
+}
+
+.intro-sub {
+    display: flex;
+    align-items: center; /* relative to vertical */
+    padding: 25px;
+    font-size: 30px;
+}
+
+.intro-img {
+    max-width: 400px;
+}
+
+/* BODY */
+
+.body {
+    margin: 65px;
+}
+
+.recipe {
+    max-width: 850px;
+}
+
+li {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.header {
+    max-width: 50vw;
+    max-height: 50vh;
+}
+
+/* CIRCULAR PHOTOS, RESPONSIVE */
+
+img.round {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+}
+
+.side-by-side {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 20px;
+}
+
+.dishes {
+    display: flex;
+    flex-flow: column wrap; /* the flexbox item has to be a column to display things below it vertically */
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+/* TEXT STYLING */
 
 * {
     font-family: 'Ibarra Real Nova', serif;
 }
 
-li {
+.title {
     background-color: bisque;
-    font-weight: bolder;
-    font-size: x-large;
+    font-size: 40px;
+    display: flex;
+    text-align: left;
+    padding: 20px;
 }
 
-footer {
-    text-align: center;
+.banner-text {
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 100px;
 }
+
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: row wrap;
+    background-color: bisque;
+    padding: 50px;
+}
+
+footer a {
+    font-size: 25px;
+    color: #414042;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 600px) {
+    .intro .intro-sub .intro-img {
+        display: flex;
+        flex-wrap: column wrap;
+        font-size: 12px;
+    }
