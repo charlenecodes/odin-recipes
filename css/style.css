@@ -1,7 +1,7 @@
 /* NAV */
 
 .nav {
-    background-color: bisque;
+    background-color: rgb(221, 203, 164);;
 }
 
 .bottom-nav {
@@ -12,6 +12,25 @@
 
 /* INTRO */
 
+.name, .subname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.name {
+    font-family: 'Shrikhand', cursive;
+    font-size: 50px;
+    margin-top: 70px;
+}
+
+.subname {
+    color: #53a258;
+    font-size: 25px;
+    font-style: bold;
+}
+
 .intro {
     display: flex;
     flex-wrap: row wrap;
@@ -19,15 +38,16 @@
     margin: 100px;
 }
 
+.intro-img {
+    max-width: 400px;
+}
+
 .intro-sub {
     display: flex;
     align-items: center; /* relative to vertical */
     padding: 25px;
     font-size: 30px;
-}
-
-.intro-img {
-    max-width: 400px;
+    color: #53a258;
 }
 
 /* BODY */
@@ -71,7 +91,7 @@ img.round {
     display: flex;
     flex-flow: column wrap; /* the flexbox item has to be a column to display things below it vertically */
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     align-content: center;
     text-align: center;
     margin: 20px;
@@ -81,14 +101,17 @@ img.round {
 
 * {
     font-family: 'Ibarra Real Nova', serif;
+    color:rgb(57, 65, 80)
 }
 
 .title {
-    background-color: bisque;
+    background-color: rgb(221, 203, 164);
+    color: white;
     font-size: 40px;
     display: flex;
     text-align: left;
     padding: 20px;
+    font-family: 'Shrikhand', cursive;
 }
 
 .banner-text {
@@ -100,27 +123,49 @@ img.round {
     margin-top: 100px;
 }
 
+.menu {
+    font-size: 25px;
+    font-family: 'Shrikhand', cursive;
+    color: #53a258;
+}
+
+.instructions {
+    padding: 50px;
+    margin: 50px;
+    border: solid 3px #53a258;
+}
+
+a.link {
+    color: #53a258;
+    font-size: 20px;
+}
+
 
 
 /* FOOTER */
+
+.bottom-nav a {
+    color:#53a258;
+    font-size: 20px;
+}
 
 footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: row wrap;
-    background-color: bisque;
+    background-color: rgb(221, 203, 164);
     padding: 50px;
 }
 
 footer a {
     font-size: 25px;
-    color: #414042;
+    color: #000;
 }
 
 /* MEDIA QUERY */
 
 @media only screen and (max-width: 600px) {
-    .intro .intro-sub .intro-img {
+    .intro {
         display: flex;
         flex-wrap: column wrap;
         font-size: 12px;
